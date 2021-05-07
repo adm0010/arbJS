@@ -1,0 +1,61 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_platform1",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_platform2",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amountIn",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address[]",
+				"name": "firstway",
+				"type": "address[]"
+			},
+			{
+				"internalType": "address[]",
+				"name": "secondway",
+				"type": "address[]"
+			}
+		],
+		"name": "tokenAInTokenBOut",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "tempAllowance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "tempBalance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
